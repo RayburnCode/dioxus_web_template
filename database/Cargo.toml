@@ -1,0 +1,14 @@
+[package]
+name = "database"
+version = "0.1.0"
+edition = "2024"
+
+# This is a library crate
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+
+
+migration = { path = "migration" }
+shared = { path = "../shared" }

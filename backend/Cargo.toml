@@ -1,0 +1,12 @@
+[package]
+name = "backend"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+
+# Local dependencies
+database = { path = "../database" } # <-- Backend depends on database
+shared = { path = "../shared" } # <-- Backend depends on shared
+migration = { path = "../database/migration" } # <-- Backend depends on migration
